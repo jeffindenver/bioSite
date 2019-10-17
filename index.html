@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="author" content="Jeff Shepherd">
-    <meta name="description" content="organisms for the Bio Site.">
-    <meta name="keywords" content="design patterns, organisms, bio-site">
+    <meta name="description" content="template of the Bio Site.">
+    <meta name="keywords" content="template, web200, bio-site">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeff Shepherd's BioSite Organisms</title>
-    <link rel="stylesheet" type="text/css" href="organism-style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Passion+One&display=swap" rel="stylesheet">
 </head>
@@ -23,15 +23,46 @@
 
         <section>
             <header>
-                <h1>Header Section</h1>
-                <h2>Sub heading</h2>
+                <h1>Gregarious Paul</h1>
             </header>
+        </section>
+
+        <section id="profile">
+            <article class="profile newsprint standard">
+                    <img src="images/BossCutOut_IncreasedContrast_500Width.png" alt="Profile drawing of Paul."
+                    class="float-right">
+                    <h3 class="center">He has plans</h3>
+                    <p>
+                        If there were a contest for the biggest talker in the state of Nebraska, Paul Staehlin would win. 
+                        He’s got the gift of gab and a silver tongue. And while he’s silver-tongued, he’s not a silver-tongued-devil. 
+                        Instead, he’s understanding, approachable, and a pretty cool boss. 
+                    </p>
+                    <p>
+                        Paul’s current goals include preparing for retirement. “The kids are out of the house, so we’re focused on us,” 
+                        he said about himself and his wife, Linda. Part of the retirement plan includes buying a new house as an investment, 
+                        which he says will give a better return than stocks and bonds. He and Linda would also like to travel around 
+                        the country in a brand new RV. “If I got a job that allowed me to work remotely, I’d do it in a heartbeat,” he said.
+                    </p> 
+                    <p>
+                        Some hurdles stand in the path to retirement. “You are your kids’ safety net, and you have to be prepared for 
+                        anything,” he said. Also, time is ticking away, and the Staehlins’ house-buying plans are late by about 10 years.
+                    </p>
+                    <p>
+                        Among Paul’s achievements are reaching his 10 year anniversary as EMS Inc.’s Director of Operations. He also served 
+                        seven and a half years in the United States Air Force at an Air Force Base in the UK. There, they maintained medium 
+                        range nuclear cruise missiles during the cold war. He was also able to progress in his career despite being a year 
+                        away from a Bachelor’s degree in Computer Science.
+                    </p>
+                    <p>
+                        From here, time and discipline are all he needs. Perhaps ten years from now, Paul will be sharing his Gift of Gab 
+                        with the residents of Arizona as he and his wife, Linda, drive into the sunset in a brand new RV.
+                    </p>
+                </article>
         </section>
 
         <section id="photos" class="photo-section">
             <div class="photo-bar muddy-red  bottom-border">
                 <figure>
-                    <h3 class="plain-font">left image with caption</h3>
                     <img src="images/EMS-20-years-logo-2.png" alt="work logo" class="charcoal-border color-tile">
                     <figcaption>Paul has worked as Director of Operations at <a href="https://www.emscrm.com">EMS</a>, a customer care and 
                         tech support firm, for over 10 years.
@@ -40,77 +71,60 @@
 
                 <figure class = "color-tile float-right quote-background"> 
                     <p class="pull-quote">
-                        This will be a quote from Paul that relates to the 
-                        photograph.
+                        We only had 40 seats when I started. We've grown to 200.
                     </p>
                 </figure>
-
             </div>
 
             <div class="photo-bar silk bottom-border">
                 <figure class="color-tile float-left quote-background">
                     <p class="pull-quote">
-                        Another Quote from Paul.
+                        Another Quote from Paul related to golfing.
                     </p>
                 </figure>
                 <figure class="silk">
-                        <h3 class="plain-font">right image with caption</h3>
                         <img src="images/golfing.jpg" alt="image of golfing" class="charcoal-border color-tile">
                         <figcaption>
                             When not working, Paul enjoys golfing with the company founder and CEO, Mitch.
                         </figcaption>
                 </figure>
             </div>
+
+            <div class="photo-bar muddy-red  bottom-border">
+                <figure>
+                    <img src="images/PaulsTruck.jpg" alt="Paul's big red truck" class="charcoal-border color-tile">
+                    <figcaption>
+                        Paul drives a big red truck. He bought it so he could tow a camper-trailer.
+                    </figcaption>
+                </figure>
+
+                <figure class = "color-tile float-right quote-background"> 
+                    <p class="pull-quote">
+                        It does better in the snow than my Camaro.
+                    </p>
+                </figure>
+            </div>
+
+            <div class="photo-bar silk bottom-border">
+                    <figure class="color-tile float-left quote-background">
+                        <p class="pull-quote">
+                            If I could work remotely, I'd buy the RV in a heartbeat.
+                        </p>
+                    </figure>
+                    <figure class="silk">
+                            <img src="images/recreational_vehicle.jpg" alt="an RV in the desert" class="charcoal-border color-tile">
+                            <figcaption>
+                                Paul and his wife plan to retire to Arizona and travel America by RV.
+                            </figcaption>
+                    </figure>
+                </div>
         </section>
 
-        <section id="profile">
-            <article class="profile newsprint standard">
-                    <img src="images/BossCutOut_IncreasedContrast_500Width.png" alt="Profile drawing of Paul."
-                    class="float-right">
-                    <h3>Headline</h3>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur 
-                    vulputate imperdiet. Quisque lacinia posuere cursus. Integer varius, metus ut 
-                    pellentesque congue, neque mauris aliquet sapien, eu aliquet mauris odio semper 
-                    nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames 
-                    ac turpis egestas. Nullam rutrum volutpat dolor id congue. Sed ullamcorper purus 
-                    nec hendrerit accumsan. Fusce vel elit eu mi pharetra ultricies. Mauris a eleifend
-                     mi, sed sollicitudin odio. Quisque sollicitudin sem eget mollis rutrum. Morbi 
-                     lacinia interdum odio vel venenatis. Fusce urna sapien, pulvinar at erat quis, 
-                     sollicitudin sodales eros. Orci varius natoque penatibus et magnis dis parturient 
-                     montes, nascetur ridiculus mus. Nam mattis tempus lorem, id rhoncus velit sodales 
-                     eget. Cras non ante malesuada erat pharetra accumsan.
-                    </p>
-                    <p>
-                    Sed euismod sagittis sagittis. Morbi gravida diam commodo rutrum malesuada. 
-                    Maecenas eget luctus leo. Sed ac nisl vel tortor ultricies viverra sed at magna. 
-                    Pellentesque nulla lorem, ornare quis tristique a, elementum in diam. Pellentesque 
-                    eget vehicula ipsum. Donec accumsan pellentesque tellus eget iaculis. Donec a lorem 
-                    ullamcorper, laoreet sapien sit amet, tempor dolor. Quisque dictum ante sed quam 
-                    semper fringilla. Suspendisse in felis a quam sollicitudin rhoncus. Donec non semper 
-                    magna.
-                    </p> 
-                    <p>
-                    Vestibulum eget euismod lectus. Orci varius natoque penatibus et magnis dis 
-                    parturient montes, nascetur ridiculus mus. Cras dolor nunc, rutrum quis 
-                    elementum in, vulputate id magna. Phasellus feugiat magna quis quam venenatis, 
-                    non interdum nulla auctor. Duis ut dignissim purus, sit amet eleifend dolor. 
-                    Morbi fermentum condimentum tellus a hendrerit. Nulla aliquet enim id dui 
-                    efficitur gravida. Etiam semper augue vitae diam faucibus consequat sed ac 
-                    diam. Duis ultrices malesuada nunc eget egestas. Pellentesque ornare malesuada 
-                    sem, vitae tincidunt magna gravida sed. Suspendisse feugiat id erat non accumsan. 
-					Nullam efficitur ut metus eu vestibulum. Mauris pretium magna lobortis lorem mollis 
-					viverra. Praesent molestie dapibus mollis. In volutpat.
-                    </p>
-                </article>
-        </section>
+
 
         <footer class="charcoal">
                 &#169;2019 Jeff Shepherd
         </footer>
-
-
     </main>
 </body>
-
 </html>
