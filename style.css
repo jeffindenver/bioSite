@@ -36,11 +36,11 @@ h3.plain-font {
 
 /* standard paragraph size */
 .standard {
-    max-width: 940px;
+    max-width: 960px;
     min-width: 100px;
 }
 
-.center {
+.center-text {
     text-align: center;
 }
 
@@ -78,7 +78,7 @@ a:hover {
 **************************************************************************************************/
 footer {
     text-align: center;
-    
+    margin-top: 20px;    
 }
 
 /*************************************************************************************************
@@ -120,6 +120,7 @@ Scale
 **************************************************************************************************/
 .profile {
     width: 940px;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -130,7 +131,7 @@ Scale
 * photo section 
 **************************************************************************************************/
 .photo-section {
-    width: 940px;
+    width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -140,7 +141,7 @@ Scale
 **************************************************************************************************/
 .photo-bar {
     display: inline-flex;
-    width: 940px;
+    width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -197,12 +198,14 @@ figcaption {
 *  nav bar
 **************************************************************************************************/
 nav.nav-bar {
+    position: fixed;
+    display: block;
+    width: 100%;
+    padding: 0;
+    top: 0;
+    left: 0;
     z-index: 5;
     text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 20;
 }
 
 ul.nav-bar {
