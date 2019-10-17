@@ -93,6 +93,7 @@ h1,h2,h3 {
     margin: 0;
     font-family: 'Permanent Marker', cursive;
     color: #373737;
+    text-shadow: 2px 2px 10px #89554e;
 }
 
 h1 {
@@ -180,6 +181,7 @@ figcaption {
     text-align: center;
     font-family: 'permanent marker', cursive;
     color: #373737;
+    text-shadow: 2px 2px 20px white;
 }
 
 .quote-background {
