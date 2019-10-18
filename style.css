@@ -185,7 +185,7 @@ figcaption {
 }
 
 .quote-background {
-    background-image: url(images/OpenQuote200px.png);
+    background-image: url("images/OpenQuote200px.png");
     background-repeat: no-repeat;
     background-position: center;
 }
