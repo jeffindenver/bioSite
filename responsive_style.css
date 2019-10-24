@@ -37,8 +37,11 @@ img + p {
     background-image: url("images/OpenQuote200px.png");
     background-repeat: no-repeat;
     background-position: center;
-    line-height: 200px;
+    font-size: 1.563em;
     min-height: 200px;
+    font-family: 'permanent marker', cursive;
+    color: #373737;
+    text-shadow: 2px 2px 20px white;
 }
 
 /* test colors */
