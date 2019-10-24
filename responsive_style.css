@@ -1,0 +1,45 @@
+h2 {
+    text-align: left;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+
+}
+
+.profile-photo {
+    height: 800px;
+    background-image: url(images/BossCutOut_IncreasedContrast_cropped.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.photo {
+    max-width: 100%;
+    margin: auto;
+}
+
+.pull-quote {
+    text-align: center;
+    align-items: center;
+    background-image: url("images/OpenQuote200px.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 200px;
+    min-height: 200px;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.brown {
+    background-color: beige;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
