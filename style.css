@@ -31,6 +31,10 @@ body {
     text-align: center;
 }
 
+.justify-text {
+    text-align: justify;
+}
+
 .float-right {
     float: right;
 }
@@ -104,6 +108,12 @@ h3 {
     font-size: 2.441em;
 }
 
+.section-headline {
+    border-top-style: solid;
+    border-top-color: #89554e;
+    border-top-width: 2px;
+}
+
 /*************************************************************************************************
 *  main headline
 **************************************************************************************************/
@@ -154,8 +164,11 @@ article p {
 
 article p::first-letter {
     color: #373737;
+    float: left;
     font-family: 'Permanent Marker', cursive;
-    font-size: 2em;
+    font-size: 4em;
+    line-height: 60px;
+    padding-right: 12px;    
 }
 
 /*************************************************************************************************
@@ -176,7 +189,7 @@ img + p {
     display: flex;
     text-align: center;
     align-items: center;
-    background-image: url("images/OpenQuote200px.png");
+    background-image: url(images/OpenQuote200px.png);
     background-repeat: no-repeat;
     background-position: center;
     font-size: 1.563em;
