@@ -1,0 +1,195 @@
+/*************************************************************************************************
+*  global style
+**************************************************************************************************/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.background-photo {
+    height: 800px;
+    background-image: url(images/BossCutOut_IncreasedContrast_cropped.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 20px;
+    padding-bottom: 0;
+    border-bottom-style: solid;
+    border-bottom-color: #373737;
+    border-radius: 2px;
+}
+
+/*************************************************************************************************
+*  alignment
+**************************************************************************************************/
+.center-text {
+    text-align: center;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+/*************************************************************************************************
+*  links 
+**************************************************************************************************/
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #DCD0C0;
+}
+
+a:visited {
+    color: #DCD0C0;
+}
+
+a:hover {
+    color: green;
+}
+
+/*************************************************************************************************
+*  color palette
+**************************************************************************************************/
+.paper {
+    background-color: #f4f4f4;
+}
+
+.silk {
+    background-color: #DCD0C0;
+}
+
+.charcoal {
+    background-color: #373737;
+    color: white;
+}
+
+.muddy-red {
+    background-color: #89554e;
+}
+
+/*************************************************************************************************
+*  headings section
+**************************************************************************************************/
+h1,h2,h3 {
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+    color: #373737;
+    text-shadow: 2px 2px 10px #89554e;
+}
+
+.gab {
+    font-size: 1.25em;
+}
+
+h1 {
+    font-size: 3.815em;
+}
+
+h2 {
+    font-size: 3.052em;
+}
+
+h3 {
+    font-size: 2.441em;
+}
+
+/*************************************************************************************************
+*  main headline
+**************************************************************************************************/
+.top-headline {
+    text-align: left;
+}
+
+@media only screen and (min-width: 900px) {
+    .top-headline {
+        text-align: center;
+    }
+}
+
+/*************************************************************************************************
+*  nav bar
+**************************************************************************************************/
+nav {
+    position: fixed;
+    border-radius: 0 0 15px 0;
+    box-shadow: -2px 5px 5px grey;
+    width: 80px;
+    height: 50px;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 8px;
+    overflow: hidden;
+}
+
+/*************************************************************************************************
+*  articles
+**************************************************************************************************/
+article {
+    padding-top: 10px;
+}
+
+article p {
+    column-width: 300px;
+    padding: 20px;
+}
+
+article p::first-letter {
+    color: #373737;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+}
+
+/*************************************************************************************************
+* photo section 
+**************************************************************************************************/
+.photo {
+    max-width: 100%;
+    margin: auto;
+}
+
+/* for photo captions */
+img + p {
+    text-align: center;
+    padding: 2px;
+}
+
+.pull-quote {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-image: url("images/OpenQuote200px.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 1.563em;
+    min-height: 200px;
+    font-family: 'permanent marker', cursive;
+    color: #373737;
+    text-shadow: 2px 2px 20px white;
+}
+
+/*************************************************************************************************
+*  footer section
+**************************************************************************************************/
+footer {
+    text-align: center;
+    margin-top: 20px;    
+}
