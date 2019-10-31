@@ -146,6 +146,12 @@ nav ul {
     justify-content: flex-end;
 }
 
+@media only screen and (min-width: 900px) {
+    .top-flex-container {
+        justify-content: center;
+    }
+}
+
 .background-photo {
     height: 800px;
     background-image: url(images/BossCutOut_IncreasedContrast_cropped.png);
@@ -167,7 +173,7 @@ article {
 
 article p {
     column-width: 300px;
-    padding: 10%;
+    padding: 5%;
 }
 
 @media only screen and (max-width: 400px) {
