@@ -212,6 +212,7 @@ article p::first-letter {
 img + p {
     text-align: center;
     padding: 2px;
+    margin-bottom: 40px;
 }
 
 .pull-quote {
