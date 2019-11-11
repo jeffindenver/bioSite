@@ -174,12 +174,20 @@ article {
 
 article p {
     column-width: 300px;
-    padding: 5%;
+    column-gap: 20px;
+    padding: 20px;
 }
 
 @media only screen and (max-width: 400px) {
     article p {
         padding: 2px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    article p {
+        column-width: 600px;
+        column-gap: 40px;
     }
 }
 
