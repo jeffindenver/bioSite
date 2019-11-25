@@ -204,6 +204,7 @@ article p::first-letter {
 * photo section 
 **************************************************************************************************/
 .photo {
+    width: 100%;
     max-width: 450px;
     margin: auto;
 }
