@@ -214,6 +214,7 @@ img + p {
     max-width: 450px;
     text-align: center;
     padding: 2px;
+    margin: auto;
     margin-bottom: 40px;
 }
 
