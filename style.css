@@ -211,6 +211,7 @@ article p::first-letter {
 
 /* for photo captions */
 img + p {
+    max-width: 450px;
     text-align: center;
     padding: 2px;
     margin-bottom: 40px;
