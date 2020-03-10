@@ -1,0 +1,187 @@
+/* global style */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #DCD0C0;
+}
+
+a:visited {
+  color: #DCD0C0;
+}
+
+a:hover {
+  color: green;
+}
+
+/* headings */
+h1,h2,h3 {
+  margin: 0;
+  font-family: 'Permanent Marker', cursive;
+  color: #373737;
+}
+
+h1 {
+  font-size: 3.815em;
+}
+
+h2 {
+  font-size: 3.052em;
+}
+
+h3 {
+  font-size: 2.441em;
+}
+
+/*
+Scale
+5.96em, 4.768em,
+3.815em, 3.052em, 2.441em,
+1.953em, 1.563em,  1.25em, 1em, .667em
+*/
+
+/* color palette */
+.paper-bag {
+  background-color: #a58963;
+}
+
+.silk {
+  background-color: #DCD0C0;
+}
+
+.newsprint {
+  background-color: #bbbcb3;
+}
+
+.charcoal {
+  background-color: #373737;
+  color: white;
+}
+
+.muddy-red {
+  background-color: #89554e;
+}
+
+/* biographical profile section */
+.profile {
+  position: relative;
+  overflow: hidden;
+}
+
+/* photo section */
+.photo-section {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*********************************** image with caption *******************************************/
+.photo-bar {
+  display: inline-flex;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  width: 470px;
+  text-align: center;
+}
+
+.color-tile {
+  margin: 0;
+  width: 470px;
+  height: auto;
+}
+
+.bottom-border {
+  border-bottom: 5px solid;
+}
+
+.charcoal-border {
+  border-style: solid;
+  border-color: #373737;
+  border-width: 10px;
+}
+
+
+/**************************************************************************************************
+*  PUll QUOTE
+***************************************************************************************************/
+.pull-quote {
+  font-size: 1.563em;
+  padding-top: 40px;
+  vertical-align: center;
+  text-align: center;
+  font-family: 'permanent marker', cursive;
+  color: #373737;
+}
+
+span.bigger {
+  font-family: 'Passion One', Impact, sans-serif;
+  font-size: 3.815em;
+}
+
+
+
+.special-border {
+  border-style: none solid solid none;
+}
+
+/* only for demo */
+h3.plain-font {
+  font-family: sans-serif;
+}
+
+/* standard paragraph size */
+.standard {
+  max-width: 600px;
+  min-width: 100px;
+}
+
+/* float-right elements */
+.float-right {
+  float: right;
+}
+
+/* float-left elements */
+.float-left {
+  float: left;
+}
+
+/* nav bar */
+nav.nav-bar {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 25%;
+  width: 50%;
+  padding: 20;
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+}
+
+ul.nav-bar {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+a.inline-list {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+
+
