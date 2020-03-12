@@ -1,0 +1,226 @@
+/* global style */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* color palette */
+.paper {
+    background-color: #f4f4f4;
+}
+
+.paper-bag {
+    background-color: #a58963;
+}
+
+.silk {
+    background-color: #DCD0C0;
+}
+
+.newsprint {
+    background-color: #bbbcb3;
+}
+
+.charcoal {
+    background-color: #373737;
+    color: white;
+}
+
+.muddy-red {
+    background-color: #89554e;
+}
+
+/* only for demo */
+h3.plain-font {
+    font-family: sans-serif;
+}
+
+/* standard paragraph size */
+.standard {
+    max-width: 960px;
+    min-width: 100px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+/* float-right elements */
+.float-right {
+    float: right;
+}
+
+/* float-left elements */
+.float-left {
+    float: left;
+}
+
+/*************************************************************************************************
+*  Links 
+**************************************************************************************************/
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #DCD0C0;
+}
+
+a:visited {
+    color: #DCD0C0;
+}
+
+a:hover {
+    color: green;
+}
+
+/*************************************************************************************************
+*  footer section
+**************************************************************************************************/
+footer {
+    text-align: center;
+    margin-top: 20px;    
+}
+
+/*************************************************************************************************
+*  header section
+**************************************************************************************************/
+header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+h1,h2,h3 {
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+    color: #373737;
+    text-shadow: 2px 2px 10px #89554e;
+}
+
+h1 {
+    font-size: 3.815em;
+}
+
+h2 {
+    font-size: 3.052em;
+}
+
+h3 {
+    font-size: 2.441em;
+}
+
+/*
+Scale
+5.96em, 4.768em, 
+3.815em, 3.052em, 2.441em, 
+1.953em, 1.563em,  1.25em, 1em, .667em
+*/
+
+
+/************************************************************************************************* 
+*  biographical profile section 
+**************************************************************************************************/
+.profile {
+    width: 940px;
+    padding: 10px 0 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+/*************************************************************************************************
+* photo section 
+**************************************************************************************************/
+.photo-section {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*************************************************************************************************
+*  image 'bar' with caption and pull quote
+**************************************************************************************************/
+.photo-bar {
+    display: inline-flex;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    width: 470px;
+    text-align: center;
+}
+
+.color-tile {
+    margin: 0;
+    width: 470px;
+    height: auto;
+}
+
+.bottom-border {
+    border-bottom: 5px solid;
+}
+
+.charcoal-border {
+    border-style: solid;
+    border-color: #373737;
+    border-width: 10px;
+}
+
+
+/**************************************************************************************************
+*  pull quote
+**************************************************************************************************/
+.pull-quote {
+    width: 200px;
+    background-repeat: no-repeat;
+    font-size: 1.563em;
+    line-height: .8;
+    padding: 80px;
+    text-align: center;
+    font-family: 'permanent marker', cursive;
+    color: #373737;
+    text-shadow: 2px 2px 20px white;
+}
+
+.quote-background {
+    background-image: url("images/OpenQuote200px.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bigger {
+    font-family: 'Passion One', Impact, sans-serif;
+    font-size: 3.815em;
+    line-height: 1;
+}
+
+/*************************************************************************************************
+*  nav bar
+**************************************************************************************************/
+nav.nav-bar {
+    position: fixed;
+    display: block;
+    width: 100%;
+    padding: 0;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    text-align: center;
+}
+
+ul.nav-bar {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+a.inline-list {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+}
